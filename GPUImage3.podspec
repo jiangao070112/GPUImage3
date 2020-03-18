@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GPUImage3"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "GPUImage by Metal"
   s.homepage     = "http://www.baidu.com"
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
   s.source       = {:git => "https://github.com/jiangao070112/GPUImage3.git", :tag => "#{s.version}"}
-  s.source_files  = "framework/Source/*.{swift,metal}", "framework/Source/Operations/*.{swift,metal}"
+  s.source_files  = "framework/Source/*.{swift,metal}", "framework/Source/Operations/*.{swift,metal,h}"
   # s.public_header_files  = "AppEntry/AppAsGate/*.h"
 
 
